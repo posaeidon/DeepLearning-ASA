@@ -160,8 +160,8 @@ if __name__=='__main__':
     #dt specifies the time step in years
     #total_t specifies the total integration time in years
     
-    pn_input = 'Test.txt'
-    pn_output = 'output_ho_layer_16.txt'
+    pn_input = 'non_hazardous_objects.txt'
+    pn_output = 'output_nho.txt'
     dir_data='data'
     
     integrate_forward(pn_input,pn_output,dir_data)   
